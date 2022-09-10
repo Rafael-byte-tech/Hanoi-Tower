@@ -1,0 +1,8 @@
+COMO COMPILAR:
+	gcc -Wall -pedantic -o trab1.exe trab1.c conv.c hanoi.c rod.c stack.c
+
+EXECUTAR:
+	./trab1.exe N -v
+
+	N: numero de discos.
+	-v: opcao de imprimir ou nao movimentos do puzzle.
